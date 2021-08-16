@@ -1,0 +1,11 @@
+
+X
+java:S1854"BRemove this useless assignment to local variable "pastaDirectory".(Ÿì
+U
+java:S1854"?Remove this useless assignment to local variable "directories".(å¦ãª
+I
+java:S1481"3Remove this unused "pastaDirectory" local variable.(Ÿì
+F
+java:S1481"0Remove this unused "directories" local variable.(å¦ãª
+^
+java:S1128"ARemove this unused import 'junit.runner.StandardTestSuiteLoader'.(€¾™ò8¯„úû¬/

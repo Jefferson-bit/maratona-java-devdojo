@@ -1,0 +1,7 @@
+
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(ÿŸ—…ÿÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(«³Ôñûÿÿÿÿ8Îš¦­/
+E
+java:S1185"(Remove this method to simply inherit it.(ˆç8áÀ¦¦­/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Úí±Ãÿÿÿÿÿ8Åš§¦­/
