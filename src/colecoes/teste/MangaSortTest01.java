@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-class SortMangaByIdComparator implements Comparator<Manga>{
+class SortMangaByIdComparator implements Comparator<Manga> {
 
     @Override
     public int compare(Manga manga1, Manga manga2) {
@@ -15,29 +15,27 @@ class SortMangaByIdComparator implements Comparator<Manga>{
     }
 
 
+    public static class MangaSortTest01 {
 
+        public static void main(String[] args) {
+            List<Manga> mangas = new ArrayList<>();
+            mangas.add(new Manga(5L, "Pokemon", 120.0));
+            mangas.add(new Manga(1L, "Demon Slayer", 300.0));
+            mangas.add(new Manga(14L, "Hokuto no Ken", 125.0));
+            mangas.add(new Manga(7L, "Attack on Titan", 33.0));
+            mangas.add(new Manga(23L, "Dragon ball z", 44.0));
 
-public class MangaSortTest01 {
+            Collections.sort(mangas);
+            for (Manga manga : mangas) {
+                System.out.println(manga);
+            }
 
-    public static void main(String[] args) {
-        List<Manga> mangas = new ArrayList<>();
-        mangas.add(new Manga(5L, "Pokemon", 120.0));
-        mangas.add(new Manga(1L,"Demon Slayer", 300.0));
-        mangas.add(new Manga(14L,"Hokuto no Ken", 125.0));
-        mangas.add(new Manga(7L,"Attack on Titan", 33.0));
-        mangas.add(new Manga(23L,"Dragon ball z", 44.0));
+            System.out.println("-------------------------");
 
-        Collections.sort(mangas);
-        for (Manga manga: mangas) {
-            System.out.println(manga);
+            Collections.sort(mangas, new SortMangaByIdComparator());
+            for (Manga manga : mangas) {
+                System.out.println(manga);
+            }
         }
-
-        System.out.println("-------------------------");
-
-        Collections.sort(mangas, new SortMangaByIdComparator());
-        for (Manga manga: mangas) {
-            System.out.println(manga);
-        }
-
     }
 }
