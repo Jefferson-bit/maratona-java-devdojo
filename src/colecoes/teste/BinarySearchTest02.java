@@ -5,6 +5,7 @@ import colecoes.dominio.Manga;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class BinarySearchTest02 {
     public static void main(String[] args) {
@@ -23,6 +24,9 @@ public class BinarySearchTest02 {
         }
         Manga mangaToSearch = new Manga(5L, "Dragon ball z", 44.0);
         System.out.println(Collections.binarySearch(mangas, mangaToSearch, sortMangaByIdComparator));
+
+        var lista = List.of("Alguma coisa");
+        var mangaaa = lista.stream().map(obj -> new Integer(12)).collect(Collectors.toList());
 
 
     }

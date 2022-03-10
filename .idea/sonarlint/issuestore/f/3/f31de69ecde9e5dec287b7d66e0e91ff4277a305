@@ -1,0 +1,11 @@
+
+V
+java:S1854";Remove this useless assignment to local variable "mangaaa".(©Ση›ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(β–ϋΉψÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(όΡ‘π
+<
+java:S2129"!Remove this "Integer" constructor(©Ση›ÿÿÿÿÿ
+J
+java:S1874"/Remove this use of "Integer"; it is deprecated.(©Ση›ÿÿÿÿÿ
+G
+java:S1481",Remove this unused "mangaaa" local variable.(©Ση›ÿÿÿÿÿ

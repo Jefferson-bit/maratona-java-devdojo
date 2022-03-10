@@ -1,0 +1,8 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¹ß€ïúÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¿è®Î8ã»‰†î/
+T	java:S106"9Replace this use of System.out or System.err by a logger.(şı¨W8Ê²†î/
+W
+java:S1854"<Remove this useless assignment to local variable "interna1".(âÑãªøÿÿÿÿ
+H
+java:S1481"-Remove this unused "interna1" local variable.(âÑãªøÿÿÿÿ
