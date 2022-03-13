@@ -1,0 +1,10 @@
+
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ïõõ	
+Q	java:S125"<This block of commented-out lines of code should be removed.(î¡¼ó
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ˆşÅß
+S	java:S106"9Replace this use of System.out or System.err by a logger.(á‹¶ùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÀÈ†²
+S	java:S106("9Replace this use of System.out or System.err by a logger.(£ˆõàüÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(íé÷ºúÿÿÿÿ
+Q
+java:S1128"4Remove this unused import 'org.w3c.dom.ls.LSOutput'.(Ò½¾Š8ùÆ©ª÷/

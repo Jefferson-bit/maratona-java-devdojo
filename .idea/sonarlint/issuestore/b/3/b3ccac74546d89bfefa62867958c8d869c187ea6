@@ -1,0 +1,12 @@
+
+D
+java:S3740"/Provide the parametrized type for this generic.(õ¾
+_
+java:S1854"DRemove this useless assignment to local variable "animeBiFunction1".(‹Ğøÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(‡¹‚şÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ëµüè
+R
+java:S1612"7Replace this lambda with method reference 'Anime::new'.(‹Ğøÿÿÿÿ
+P
+java:S1481"5Remove this unused "animeBiFunction1" local variable.(‹Ğøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Œ×¨¬ûÿÿÿÿ

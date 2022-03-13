@@ -1,0 +1,6 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Â³îÄ
+N
+java:S1128"3Remove this unused import 'generics.dominio.Carro'.(€Âñâùÿÿÿÿ
+X
+java:S1128"BRemove this unused import 'generics.service.CarroRentavelService'.(ÇÏšî

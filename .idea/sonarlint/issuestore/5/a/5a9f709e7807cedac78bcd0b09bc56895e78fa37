@@ -1,0 +1,13 @@
+
+W
+java:S1118":Add a private constructor to hide the implicit public one.(èÕúë8ô·µ«÷/
+q
+java:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.(ì£à„ÿÿÿÿÿ
+q
+java:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.(î‘‡¡üÿÿÿÿ
+U
+java:S1128"9Remove this unused import 'javax.swing.text.html.Option'.(¼Òì:8ø·µ«÷/
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ø·µ«÷/
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ø·µ«÷/

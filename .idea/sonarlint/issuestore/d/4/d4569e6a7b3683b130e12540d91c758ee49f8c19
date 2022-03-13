@@ -1,0 +1,9 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(—¼Ñ¡
+S	java:S106"9Replace this use of System.out or System.err by a logger.(••Ë¢üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ı¸ÙŸÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ˆø¹…
+S	java:S106"9Replace this use of System.out or System.err by a logger.(õãÖúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‡ë‰ 
+N
+java:S1128"3Remove this unused import 'generics.dominio.Carro'.(€Âñâùÿÿÿÿ

@@ -1,0 +1,8 @@
+
+D
+java:S3740"/Provide the parametrized type for this generic.(žõ¾
+M
+java:S2440"0Remove this instantiation of "AnimeComparators".(«Ø÷¡8Öñõ¦÷/
+u
+java:S1612"XReplace this lambda with method reference 'animeComparators::compareByEpisodesNoStatic'.(ÇÈ¤ö8¹õú¦÷/
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ëµüè

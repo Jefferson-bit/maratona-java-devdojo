@@ -1,0 +1,17 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(Ú¼¾ø
+M	java:S106"9Replace this use of System.out or System.err by a logger.(¤¼£=
+S	java:S106"9Replace this use of System.out or System.err by a logger.(º°½Óÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(øÍ¨üÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(°ÈĞıÿÿÿÿ8£çşÊ÷/
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(¶´›§şÿÿÿÿ8¨Á‹Ë÷/
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(ÉÄ¸ùÿÿÿÿ8Øı‹Ë÷/
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(é¶‚İ8Øı‹Ë÷/
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(¶´›§şÿÿÿÿ8ŒÍË÷/
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(Ú°Îõ8ŒÍË÷/
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(¼Â™Ñûÿÿÿÿ8ŒÍË÷/
+G
+java:S1128"1Remove this unused import 'java.util.Comparator'.(î¹ó¹
+E
+java:S1068"/Remove this unused "lightNovels" private field.(Ú¼¾ø

@@ -1,0 +1,15 @@
+
+Q
+java:S1854";Remove this useless assignment to local variable "animals".(Å×•ª
+T
+java:S1854
+"9Remove this useless assignment to local variable "gatos".(Ã¹”Èûÿÿÿÿ
+E
+java:S1481
+"*Remove this unused "gatos" local variable.(Ã¹”Èûÿÿÿÿ
+B
+java:S1481",Remove this unused "animals" local variable.(Å×•ª
+H
+java:S1144"2Remove this unused private "printConsulta" method.(“¥îû
+I
+java:S1144 "3Remove this unused private "printConsulta2" method.(·£¯Ú

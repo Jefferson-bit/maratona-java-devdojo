@@ -1,0 +1,8 @@
+
+U
+java:S1854":Remove this useless assignment to local variable "barcos".(²“Ö…ÿÿÿÿÿ
+F
+java:S1481"+Remove this unused "barcos" local variable.(²“Ö…ÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¿šü
+]
+java:S1128"BRemove this unused import 'generics.service.BarcoRentavelService'.(ğìÒ’úÿÿÿÿ

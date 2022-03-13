@@ -1,0 +1,19 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(ÒÄÍÃùÿÿÿÿ
+Z
+java:S1854"DRemove this useless assignment to local variable "animeComparators".(«Ø÷¡
+K
+java:S1481"5Remove this unused "animeComparators" local variable.(«Ø÷¡
+N	java:S106"9Replace this use of System.out or System.err by a logger.(şõ‘›
+v
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(€ŞçØÿÿÿÿÿ
+Y
+java:S1612">Replace this lambda with method reference 'Integer::parseInt'.(€ŞçØÿÿÿÿÿ
+q
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(ö¹®½
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ë˜´Öşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÛÉâÃ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(©ôÓÁ
+M
+java:S1128"2Remove this unused import 'lambdas.dominio.Anime'.(ËàÍÏÿÿÿÿÿ
