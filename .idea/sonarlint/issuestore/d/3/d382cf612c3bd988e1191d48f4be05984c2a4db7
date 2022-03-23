@@ -1,15 +1,0 @@
-
-E
-java:S3740"/Provide the parametrized type for this generic.(Ú¼¾ø
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ñ’¥½ÿÿÿÿÿ
-M	java:S106"9Replace this use of System.out or System.err by a logger.(ğŞæn
-S	java:S106 "9Replace this use of System.out or System.err by a logger.(ş©à²øÿÿÿÿ
-S	java:S106%"9Replace this use of System.out or System.err by a logger.(·êÜöüÿÿÿÿ
-S	java:S106,"9Replace this use of System.out or System.err by a logger.(·êÜöüÿÿÿÿ
-H
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
-S
-java:S1128	"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
-J
-java:S1128
-"4Remove this unused import 'java.util.stream.Stream'.(ó÷”

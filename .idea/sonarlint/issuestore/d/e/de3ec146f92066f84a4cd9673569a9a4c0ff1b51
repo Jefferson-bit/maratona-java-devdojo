@@ -9,6 +9,6 @@ java:S1481".Remove this unused "isCreated" local variable.(º“¾èüÿÿÿÿ
 Y	java:S899"DDo something with the "boolean" value returned by "setLastModified".(ø×§ß
 E
 java:S1481"/Remove this unused "isModified" local variable.(ø×§ß
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(èÔÄÀÿÿÿÿÿ8Í×¨ı¬/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Ö“ùÎ8“Â©ı¬/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ñèí¦üÿÿÿÿ8“Â©ı¬/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(èÔÄÀÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ö“ùÎ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ñèí¦üÿÿÿÿ

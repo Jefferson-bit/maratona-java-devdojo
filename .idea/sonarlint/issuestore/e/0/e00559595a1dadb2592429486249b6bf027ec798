@@ -1,0 +1,14 @@
+
+U
+java:S1854":Remove this useless assignment to local variable "manga5".(¶ô†ñþÿÿÿÿ
+U
+java:S1854":Remove this useless assignment to local variable "manga3".(ž”¾¨øÿÿÿÿ
+O
+java:S1854":Remove this useless assignment to local variable "manga2".(ïî†
+@
+java:S1481"+Remove this unused "manga2" local variable.(ïî†
+F
+java:S1481"+Remove this unused "manga3" local variable.(ž”¾¨øÿÿÿÿ
+F
+java:S1481"+Remove this unused "manga5" local variable.(¶ô†ñþÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÕÛ€åÿÿÿÿÿ

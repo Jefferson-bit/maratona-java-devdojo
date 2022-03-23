@@ -1,0 +1,26 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(é´ã´
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(Ææ¸Šüÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(²×Ôÿÿÿÿÿ
+N	java:S106("9Replace this use of System.out or System.err by a logger.(˜¡§À
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(Ææ¸Šüÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(²×Ôÿÿÿÿÿ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(˜¡§À
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(¬ãöšûÿÿÿÿ
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(±‹Ûùÿÿÿÿ
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(Ææ¸Šüÿÿÿÿ
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(²×Ôÿÿÿÿÿ8Î÷Äçú/
+U	java:S106F"9Replace this use of System.out or System.err by a logger.(˜¡§À8ëÖÉçú/
+Q
+java:S1144"/Remove this unused private "withdrawal" method.(§¿Çºıÿÿÿÿ8øƒÇçú/
+X
+java:S11440"=Remove this unused private "withdrawalSemParalelismo" method.(èßœİúÿÿÿÿ
+v
+java:S1192$"[Define a constant instead of duplicating this literal " estÃ¡ indo sacar dinheiro" 3 times.(Ææ¸Šüÿÿÿÿ
+h
+java:S1192("RDefine a constant instead of duplicating this literal " efetuar o saque " 3 times.(˜¡§À
+i
+java:S1192("SDefine a constant instead of duplicating this literal "Sem dinheiro para " 3 times.(˜¡§À
+…
+java:S1192&"jDefine a constant instead of duplicating this literal " completou o saque, valor atual da conta " 3 times.(²×Ôÿÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú¶öæùÿÿÿÿ
