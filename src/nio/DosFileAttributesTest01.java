@@ -7,11 +7,14 @@ import java.nio.file.Paths;
 import java.nio.file.attribute.DosFileAttributeView;
 import java.nio.file.attribute.DosFileAttributes;
 
+//Com eles tbm é possível deixar arquivos ocultos, somente para leitura e por ai vai
 public class DosFileAttributesTest01 {
 
     public static void main(String[] args) throws IOException {
         Path path = Paths.get("pasta/teste.txt");
         Files.createFile(path);
+        //esssa sintaxe do dos: só serve para windows
+        //estamos ocultando o arquivo, ou permitindo somente a leitura do mesmo
         Files.setAttribute(path, "dos:hidden", true);
         Files.setAttribute(path, "dos:readonly", true);
         Files.setAttribute(path, "dos:readonly", false);

@@ -9,11 +9,14 @@ import java.nio.file.attribute.FileTime;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 
-public class BasicFileAttributes {
+//Ela te da polimorfismo no sistema operacional
+//BasicFileAttributes, DosFileAttributes e PosFixFileAttributes foram criados
+//para trabalhar em diferentes sistema operacionais
+public class BasicFileAttributesTest01 {
 
     public static void main(String[] args) throws IOException {
+        //BasicFileAttributes DosFileAttributes
         LocalDateTime date = LocalDateTime.now().minusDays(10);
-
         File file = new File("pasta2/novo.txt");
         boolean isCreated = file.createNewFile();
         boolean isModified = file.setLastModified(date.toInstant(ZoneOffset.UTC).toEpochMilli());

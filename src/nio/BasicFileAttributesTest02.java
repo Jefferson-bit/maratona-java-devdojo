@@ -8,6 +8,8 @@ import java.nio.file.attribute.BasicFileAttributeView;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.nio.file.attribute.FileTime;
 
+//Classes que tem o final de view como BasicFileAttributesView DosfileAttributesView PosixFileAttributesView
+//te dão a possibilidade de altera conteudo do arquivo
 public class BasicFileAttributesTest02 {
 
     public static void main(String[] args) throws IOException {

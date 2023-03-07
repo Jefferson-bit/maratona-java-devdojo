@@ -3,6 +3,9 @@ package nio;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+
+//relativa um diretorio path. Dado dois Paths
+// como chega no path2 apartir do path1, caso vc tenha dois path
 public class RelativazeTest01 {
     public static void main(String[] args) {
         Path dir = Paths.get("/home/william");

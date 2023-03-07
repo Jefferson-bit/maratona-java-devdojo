@@ -13,6 +13,9 @@ class ListJavaFile extends SimpleFileVisitor<Path>  {
     }
 }
 
+
+//Com file visitor consegumios listar arquivos dos path um por um, mas precisamos
+// de uma calsse que responde se é um file visitor
 public class SimpleFileVisitorTest01 {
     public static void main(String[] args) throws IOException {
         Path root = Paths.get(".");
