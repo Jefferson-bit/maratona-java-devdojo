@@ -29,7 +29,7 @@ public class ThreadAccountTest01 implements Runnable {
     private void withdrawal(int amount) {
         if (account.getBalance() >= amount) {
             // existe um problema aqui. Temos duas threads. t1 e t2, o problema é que como não temos garantia de nada
-            // não sabemos qual das thread vai executar primeiro. O lance é aqui é q t1 e t2 podem entrar no
+            // não sabemos qual das thread vai executar primeiro. O lance aqui é q t1 e t2 podem entrar no
             // if pq digamos q t1 entro no if, o saldo é 10 e t2 tbm entro no if e o saldo é 10
             // t1 executa, deixa saldo zero, porém t2 tbm está dentro da condição. O saldo vai ficar negativo
             // isso ocorre pq duas threads estão acesando ao mesmo tempo o mesmo objeto

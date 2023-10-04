@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-//Zipando poasta quando vc quer o stream vc está trabalhando com dados de baixo nivel, praticamente binarios
+//Zipando poasta quando vc ver que uma classe contem STREAM significa que ela está trabalhando com dados de baixo nivel, praticamente binarios
 public class ZipOutPutStreamTest01 {
     public static void main(String[] args) {
         Path arquivoZip = Paths.get("pasta/arquivo.zip");
