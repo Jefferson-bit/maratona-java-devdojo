@@ -1,6 +1,7 @@
-package concorrencia.completablefuture;
+package concorrencia.teste;
 
 import concorrencia.dominio.Quote;
+import concorrencia.service.StoreServiceWithDiscount;
 
 import java.util.List;
 import java.util.Locale;
@@ -34,19 +35,21 @@ public class CompletableFutureTest04 {
 
         List<String> stores = List.of("store 1", "store 2", "store 3", "store 4");
 
-        var completableFutures = stores.stream()
+        List<CompletableFuture<String>> collect = stores.stream()
                 // pegando um preço assincrono
                 .map(s -> CompletableFuture.supplyAsync(() -> service.getPriceSync(s)))
                 //instanciando um novo Quote de String que gero o getprice
+                //quando queremos encadear chamadas sincronas e assincrona. O thenApply é usado
+                //em funções de mapeamento sincrono. Nesse caso o Quote queremos executa sincrono
                 .map(cf -> cf.thenApply(Quote::newQuote))
                 //them compose retorna um novo estado de completado com o valor que a gente passa na função
                 // você pode utilizar o themCompose de forma assincrona. Isso significa que você vai utiliza a mesma thread q vc uso
                 // no supplyAsync acima, será a mesma thread do thenCompose. Ele compoe o primeiro completableFuture
-                .map(cf2 -> cf2.thenCompose(quote -> CompletableFuture.supplyAsync(() -> service.applyDiscount(quote))))
+                .map(cf -> cf.thenComposeAsync(quote -> CompletableFuture.supplyAsync(() -> service.applyDiscount(quote))))
                 .collect(Collectors.toList());
 
 
-        completableFutures.stream()
+        collect.stream()
                 .map(CompletableFuture::join)
                 .forEach(System.out::println);
 

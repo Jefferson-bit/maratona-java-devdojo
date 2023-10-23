@@ -1,12 +1,12 @@
-package concorrencia.completablefuture;
+package concorrencia.teste;
 
 import concorrencia.dominio.Quote;
+import concorrencia.service.StoreServiceWithDiscount;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 import java.util.concurrent.CompletableFuture;
-import java.util.stream.Collectors;
 
 public class CompletableFutureTest05 {
 
@@ -29,8 +29,6 @@ public class CompletableFutureTest05 {
                 .map(cf -> cf.thenAccept(store -> System.out.printf("%s finished in %d%n", store, (System.currentTimeMillis() - start))))
                 .toArray(CompletableFuture[]::new);
 
-        Arrays.stream(completableFutures).map(CompletableFuture::join)
-                .forEach(System.out::println);
         //retorna um novo completableFuture: Digamos que você está fazendo um calculo pesado, efetuando 10 ou 20 chamadas
         //assincronas e vc precisa saber quando que todas essas chamdasa terminaram. É só passar todos os completablefuture
         //para ele. então quando todos terminarem independente de ter exceção ou não, ele vai termina de forma excepcional
@@ -41,6 +39,7 @@ public class CompletableFutureTest05 {
         // é util quando vc tem uma cotação de preço e quer saber a cotação do dolar e digamos q vc vai fazer uma chamda
         // para 5 lugares e se vc sempre tiver o msm resultado e para vc só interessa 1 resultado, então vc vai  e finaliza
         // pq os outros 4 resultado não importa pra vc
+        voidCompletableFuture.join();
         var anyOfCompletableFuture = CompletableFuture.anyOf(completableFutures);
 //        voidCompletableFuture.join();
         System.out.printf("Finihsed? %b", voidCompletableFuture.isDone());

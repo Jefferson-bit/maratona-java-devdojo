@@ -1,4 +1,4 @@
-package concorrencia.completablefuture;
+package concorrencia.service;
 
 import concorrencia.dominio.Discount;
 import concorrencia.dominio.Quote;
@@ -10,7 +10,7 @@ public class StoreServiceWithDiscount {
 
     public String getPriceSync(String storeName) {
         double price = priceGenerator();
-        var discountCode = Discount.Code.values()[ThreadLocalRandom.current().nextInt(Discount.Code.values().length)];
+        Discount.Code discountCode = Discount.Code.values()[ThreadLocalRandom.current().nextInt(Discount.Code.values().length)];
         return String.format("%s:%.2f:%s", storeName, price, discountCode);
     }
 
@@ -28,11 +28,10 @@ public class StoreServiceWithDiscount {
         delay();
         return ThreadLocalRandom.current().nextInt(1, 500) * 10;
     }
-
     private void delay() {
         try {
             int milli = ThreadLocalRandom.current().nextInt(200, 2500);
-            TimeUnit.SECONDS.sleep(milli);
+            TimeUnit.MILLISECONDS.sleep(milli);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

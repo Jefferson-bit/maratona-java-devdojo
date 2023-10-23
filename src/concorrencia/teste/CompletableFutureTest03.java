@@ -1,4 +1,6 @@
-package concorrencia.completablefuture;
+package concorrencia.teste;
+
+import concorrencia.service.StoreServiceDeprecated;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;

@@ -1,6 +1,6 @@
 package concorrencia.dominio;
 
-public class Quote {
+public final class Quote {
 
     private final String store;
     private final double price;
